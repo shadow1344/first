@@ -6,15 +6,16 @@
     <title>Articles</title>
   </head>
   <body>
-    <h1>articles  list</h1>
-    <link rel="stylesheet" href="{% static 'styles.css' %}">
-    {% for num in art %}
-    <h2>
-      <a href="#">{{num.title}}</a>
-    </h2>
-    <p>{{num.noob}}</p>
-    <p>{{num.date}}</p>
-    {% endfor %}
-
+<div class="">
+        <h1>articles  list</h1>
+        <link rel="stylesheet" href="{% static 'styles.css' %}">
+        {% for num in art %}
+        <h2>
+          <a href="#">{{num.title}}</a>
+        </h2>
+        <p>{{num.noob}}</p>
+        <p>{{num.date}}</p>
+        {% endfor %}
+</div>
   </body>
 </html>
