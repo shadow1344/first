@@ -1,3 +1,16 @@
 body {
-  background-color: red;
+  background-color: #3d5f39;
+  background-image: url(/static/watch.jpg);
+  color:#fff;
+}
+body *{
+  font-family:arial;
+}
+h1,h2,h3,h4,h5{
+  font-weight:normal;
+  margin:0;
+}
+a,a:hover,a:visited{
+  color:#87e20b;
+  text-decoration:none;
 }

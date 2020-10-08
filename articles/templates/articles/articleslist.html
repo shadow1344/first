@@ -4,11 +4,12 @@
   <head>
     <meta charset="utf-8">
     <title>Articles</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
   </head>
   <body>
-<div class="">
+     <div class="container">
         <h1>articles  list</h1>
-        <link rel="stylesheet" href="{% static 'styles.css' %}">
+
         {% for num in art %}
         <h2>
           <a href="#">{{num.title}}</a>
@@ -16,6 +17,6 @@
         <p>{{num.noob}}</p>
         <p>{{num.date}}</p>
         {% endfor %}
-</div>
+     </div>
   </body>
 </html>
